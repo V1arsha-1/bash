@@ -42,15 +42,15 @@ You should see:
 Monitoring started for directory: /home/youruser/testmonitor
 Watches established.
 
-📊 How It Works
+ How It Works
 
 The script uses:
 
-🔹 inotifywait
+ inotifywait
 
 A Linux utility that listens for file system events.
 
-🔹 Events Captured:
+Events Captured:
 
 CREATE
 
@@ -62,7 +62,7 @@ Every event is logged in the following format:
 
 YYYY-MM-DD HH:MM:SS | EVENT | /path/to/file
 
-🧪 Testing the Script
+ Testing the Script
 
 Open another terminal and try:
 
